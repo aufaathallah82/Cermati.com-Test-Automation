@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-04T01:49:47.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4431000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "register",
+        "description": "",
+        "id": "register;register",
+        "after": [
+          {
+            "result": {
+              "duration": 674000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 991000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user input \"email@cermati.com\" at search email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@cermati.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "demo.steps_definition.DaftarAkunStep.inputEmailAtEmailField(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input \"08123456789\" at search no hp field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"08123456789\"",
+                  "offset": 11
+                }
+              ],
+              "location": "demo.steps_definition.DaftarAkunStep.inputNoHpAtNoHpField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user input \"Abc123!@#\" at search password field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user input \"Abc123!@#\" at search repeat password field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user input \"Aufa\" at search surname field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user input \"Athallah\" at search lastname field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user input \"Jakarta\" at search city field",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          }
+        ]
+      }
+    ],
+    "name": "register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/daftarAkun.feature",
+    "tags": [
+      {
+        "name": "@Web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

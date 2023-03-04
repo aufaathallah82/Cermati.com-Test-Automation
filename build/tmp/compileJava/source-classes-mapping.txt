@@ -1,0 +1,6 @@
+demo/pages/base/BasePageObject.java
+ demo.pages.base.BasePageObject
+demo/webdriver/WebdriverInstance.java
+ demo.webdriver.WebdriverInstance
+demo/pages/base/page_object/DaftarAkunPages.java
+ demo.pages.base.page_object.DaftarAkunPages

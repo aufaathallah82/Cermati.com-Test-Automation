@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="register" tests="8" skipped="4" failures="2" errors="0" timestamp="2023-03-04T01:49:51" hostname="DESKTOP-62857U8" time="1.878">
+  <properties/>
+  <testcase name="user input &quot;email@cermati.com&quot; at search email field" classname="register" time="0.998"/>
+  <testcase name="user input &quot;08123456789&quot; at search no hp field" classname="register" time="0.189"/>
+  <testcase name="user input &quot;Abc123!@#&quot; at search password field" classname="register" time="0.005">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user input &quot;Abc123!@#&quot; at search password field' and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user input {string} at search password field&quot;)&#10;public void user_input_at_search_password_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search repeat password field&quot;)&#10;public void user_input_at_search_repeat_password_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search surname field&quot;)&#10;public void user_input_at_search_surname_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search lastname field&quot;)&#10;public void user_input_at_search_lastname_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search city field&quot;)&#10;public void user_input_at_search_city_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user input &quot;Abc123!@#&quot; at search password field' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user input {string} at search password field&quot;)
+public void user_input_at_search_password_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search repeat password field&quot;)
+public void user_input_at_search_repeat_password_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search surname field&quot;)
+public void user_input_at_search_surname_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search lastname field&quot;)
+public void user_input_at_search_lastname_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search city field&quot;)
+public void user_input_at_search_city_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="user input &quot;Abc123!@#&quot; at search repeat password field" classname="register" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user input &quot;Aufa&quot; at search surname field" classname="register" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user input &quot;Athallah&quot; at search lastname field" classname="register" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user input &quot;Jakarta&quot; at search city field" classname="register" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="register" time="6.582">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user input &quot;Abc123!@#&quot; at search password field' and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user input {string} at search password field&quot;)&#10;public void user_input_at_search_password_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search repeat password field&quot;)&#10;public void user_input_at_search_repeat_password_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search surname field&quot;)&#10;public void user_input_at_search_surname_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search lastname field&quot;)&#10;public void user_input_at_search_lastname_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;user input {string} at search city field&quot;)&#10;public void user_input_at_search_city_field(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user input &quot;Abc123!@#&quot; at search password field' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user input {string} at search password field&quot;)
+public void user_input_at_search_password_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search repeat password field&quot;)
+public void user_input_at_search_repeat_password_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search surname field&quot;)
+public void user_input_at_search_surname_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search lastname field&quot;)
+public void user_input_at_search_lastname_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user input {string} at search city field&quot;)
+public void user_input_at_search_city_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@Web
+Scenario: register                                           ?[90m# src/test/resources/features/daftarAkun.feature:4?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 7546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677894590.295][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 04, 2023 8:49:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
